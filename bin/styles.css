@@ -5,7 +5,7 @@
 #fh {border-radius:25px; border:solid black; margin:20px;}
 
 .frameHead2{display:flex; align-items:center; flex-wrap:wrap;}
-#fh2 {border-radius:25px; border:solid black; margin:20px;}
+#fh2 {margin:20px;}
 
 	
 .frameContainer {text-align:center;}
