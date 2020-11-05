@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="description" content="">
+<link rel="stylesheet" href="bin/styles.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<title>OTP Page</title>
+<script>
+  function openMethod(methodName) {
+  var i;
+  var x = document.getElementsByClassName("tabContent");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  document.getElementById(methodName).style.display = "block";  
+  }
+
+  function resend() {
+    alert("OTP has been resent!");
+  }
+</script>
+</head>
+
+<body>
+<div class="container-fluid" id="frame">
+
+	<!-- header -->
+	<div class="frameHead row" id="fh">
+		<div class="col-xs-12" id="logo" align="center">
+			<img src="bin/logo.jpg" class="image" alt="Image">
+		</div>
+	</div>
+
+	<!-- body -->
+	<div class="frameContainer row" id="fc">	
+  		<div class="col-xs-12">
+          <!--Tab content -->
+          <div id="SMS" class="tabcontent">
+            <label for="smsotp"> OTP sent to: need phone number </label><br>
+            <p>
+              OTP:  <input type="text" id="smsotp" name="smsotp" size="6">
+              <button class="resend" onclick="resend()">Resend</button><br><br>
+            </p>
+            <p><button class="tablinks" onclick="openMethod('Email')"> Verify with Email </button></p>
+          </div>
+
+          <div id="Email" class="tabcontent" style="display:none">
+            <label for="emailotp"> OTP sent to: need email address </label><br>
+            <p>
+              OTP:  <input type="text" id="emailotp" name="emailotp" size="6">
+              <button class="resend" onclick="resend()">Resend</button><br><br>
+            </p>
+            <p><button class="tablinks" onclick="openMethod('SMS')"> Verify with SMS </button></p>
+          </div>
+      </div>
+      <div class="col-xs-12">
+        <a href="index.html"><button type="button">< Back </button></a>
+			  <a href="mainMenu.html"><button type="button">Next > </button></a>
+      </div>
+	</div>
+
+	<!-- footer-->	
+	
+  <footer>
+    <div class="frameFoot row" id="ff">	
+      <div class="col-xs-12">
+        
+        lorem ipsum
+  
+      </div>
+  </div>
+  </footer>
+</div>
+</body>
+
+
+
+</html>
