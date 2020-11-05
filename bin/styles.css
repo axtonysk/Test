@@ -1,9 +1,11 @@
 /* css used in template.html */
 
 #logo {
+	width:100%;
 	border: solid red;
 }
 #help {
+	width:100%;
 	padding-left:95%;
 	border: solid blue;
 }
