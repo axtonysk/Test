@@ -1,14 +1,19 @@
 /* css used in template.html */
 
-#logo {width:80%; height:15%; background: url("bin/logo.jpg"); background-size: contain;}
-#help {padding-left:5%; padding-right:5%;}
+#logo {
+	border: solid red;
+}
+#help {
+	padding-left:95%;
+	border: solid blue;
+}
 
 
 
 #help img {max-width:100%; max-height:100%;}
 
 .frameHead{display:flex; align-items:center; flex-wrap:wrap;}
-#fh {border-radius:5px; border:solid black;}
+#fh {border:solid black;}
 	
 .frameContainer {text-align:center;}
 #fc {border-radius:25px; background:dodgerblue; margin:20px;}
