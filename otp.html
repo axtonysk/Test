@@ -48,23 +48,23 @@
             <label for="smsotp"> OTP sent to: need phone number </label><br>
             <p>
               OTP:  <input type="text" id="smsotp" name="smsotp" size="6">
-              <button class="resend" onclick="resend()">Resend</button><br><br>
+              <button class="resend btn btn-default" onclick="resend()">Resend</button><br><br>
             </p>
-            <p><button class="tablinks" onclick="openMethod('Email')"> Verify with Email </button></p>
+            <p><button class="tablinks btn btn-default" onclick="openMethod('Email')"> Verify with Email </button></p>
           </div>
 
           <div id="Email" class="tabcontent" style="display:none">
             <label for="emailotp"> OTP sent to: need email address </label><br>
             <p>
               OTP:  <input type="text" id="emailotp" name="emailotp" size="6">
-              <button class="resend" onclick="resend()">Resend</button><br><br>
+              <button class="resend btn btn-default" onclick="resend()">Resend</button><br><br>
             </p>
-            <p><button class="tablinks" onclick="openMethod('SMS')"> Verify with SMS </button></p>
+            <p><button class="tablinks btn btn-default" onclick="openMethod('SMS')"> Verify with SMS </button></p>
           </div>
       </div>
       <div class="col-xs-12">
-        <a href="index.html"><button type="button">< Back </button></a>
-			  <a href="mainMenu.html"><button type="button">Next > </button></a>
+        <a href="index.html"><button type="button" class="btn btn-default">< Back </button></a>
+			  <a href="mainMenu.html"><button type="button" class="btn btn-default">Next > </button></a>
       </div>
 	</div>
 
