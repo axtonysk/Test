@@ -30,5 +30,7 @@
 
 /* registration.html */
 #details {
-	display:flex;align-items:center;
+	margin:5px;
+	display:flex;
+	align-items:center;
 }
