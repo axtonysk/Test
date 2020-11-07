@@ -10,21 +10,25 @@
 	width:100%;
 	height:8%;
 }
-
-.frameHead{}
-#fh {}
 	
 .frameContainer {text-align:center;}
-#fc {height:70%;border-radius:25px; background:dodgerblue; margin:20px;padding-bottom:5px;display:flex;align-items:center;}
-
-.frameFoot {text-align:center;}
-#ff {border-radius:25px; background:dodgerblue; margin:20px;}
-
-
+#fc {height:70%;border-radius:25px; background:dodgerblue; margin:20px;padding-bottom:5px;}
 
 /* Place css for other pages here*/
 
-/* Index.html */
-#indexIC {
-    margin-top: 100px;
+/* index.html */
+#index {
+	height:70%;
+	border-radius:25px;
+	background:dodgerblue;
+	margin:20px;
+	padding-bottom:5px;
+	display:flex;
+	align-items:center;
+
+}
+
+/* registration.html */
+#details {
+	display:flex;align-items:center;
 }

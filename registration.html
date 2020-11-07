@@ -15,12 +15,13 @@
 <div class="container" id="frame">
 
   <!-- header -->
-  <div class="row" id="fh">
+  <div class="row">
     <div class="col-xs-12" id="logo" align="center">
       <img src="bin/logo.jpg" class="image" alt="Image">
     </div>
   </div>
-  <div class="row" id="fh">
+  
+  <div class="row">
     <div class="col-xs-12" id="help" align="right">
       <img src="bin/help.png" class="image" alt="Image">
     </div>
@@ -28,35 +29,29 @@
 
 	<!-- body -->
 	<div class="frameContainer row" id="fc">	
-  		<div class="col-xs-12">
-			<h1>Personal Information</h1>
-            <label>Full Name:  </label><input type="text"><br>
-            <label>NRIC:  </label><input type="text"><br>
-            <label>D.O.B.:  </label><input type="date"><br>
-            <label>Mobile Number:  </label><input type="tel"><br>
-            <label>Email:  </label><input type="email"><br>
-<!--
-			<h1>Medical History</h1>
-            <label for="allergy">Allergy</label>
-            <select name="allergy" id="allergy">
-                <option value="1">Option1</option>
-                <option value="2">Option2</option>
-                <option value="3">Option3</option>
-                <option value="4">Option4</option>
-            </select><br>
+    <h1>Personal Information</h1>
+    
+    <div class="row">
+      <div class="col-xs-6">
+        <label>Full Name:</label><br>
+        <label>NRIC:</label><br>
+        <label>D.O.B.:</label><br>
+        <label>Mobile Number:</label><br>
+        <label>Email:</label><br>
+      </div>
 
-            <label for="medHist">Medical History</label>
-            <select name="medHist" id="medHist">
-                <option value="1">Option1</option>
-                <option value="2">Option2</option>
-                <option value="3">Option3</option>
-                <option value="4">Option4</option>
-			</select><br><br>
--->
-            <a href="index.html"><button type="button" class="btn btn-default">< Back </button></a>
-			<a href="otp.html"><button type="button" class="btn btn-default">Register > </button></a>
-  		</div>
-	</div>
+      <div class="col-xs-6">
+        <input type="text"><br>
+        <input type="text"><br>
+        <input type="date"><br>
+        <input type="tel"><br>
+        <input type="email"><br>
+      </div>
+    </div>
+
+    <a href="index.html"><button type="button" class="btn btn-default">< Back </button></a>
+		<a href="otp.html"><button type="button" class="btn btn-default">Register > </button></a>
+  </div>
 </div>
 </body>
 
