@@ -43,31 +43,41 @@
 
 	<!-- body -->
 	<div class="row" id="frameContainer">	
-  		<div class="col-xs-12">
-          <!--Tab content -->
-          <div id="SMS" class="tabcontent">
-            <label for="smsotp"> OTP sent to: need phone number </label><br>
-            <p>
-              OTP:  <input type="text" id="smsotp" name="smsotp" size="6">
-              <button class="resend btn btn-default" onclick="resend()">Resend</button><br><br>
-            </p>
-            <p><button class="tablinks btn btn-default" onclick="openMethod('Email')"> Verify with Email </button></p>
-          </div>
+    <h2>Secure PIN</h2>
 
-          <div id="Email" class="tabcontent" style="display:none">
-            <label for="emailotp"> OTP sent to: need email address </label><br>
-            <p>
-              OTP:  <input type="text" id="emailotp" name="emailotp" size="6">
-              <button class="resend btn btn-default" onclick="resend()">Resend</button><br><br>
-            </p>
-            <p><button class="tablinks btn btn-default" onclick="openMethod('SMS')"> Verify with SMS </button></p>
-          </div>
-      </div>
+    <div class="otp row">
       <div class="col-xs-12">
-        <a href="index.html"><button type="button" class="btn btn-default">< Back </button></a>
-			  <a href="mainMenu.html"><button type="button" class="btn btn-default">Next > </button></a>
+        
+        <!--Tab content -->
+        <div id="SMS" class="tabcontent">
+          <label for="smsotp">An SMS containing the 6-digit PIN has been sent to your mobile. Please key in below.</label>
+          <p>
+            <label>OTP:</label>
+            <input type="text" id="smsotp" name="smsotp" size="6">
+            <button class="resend btn btn-default" onclick="resend()">Resend</button>
+          </p>
+          <p><button class="tablinks btn btn-default" onclick="openMethod('Email')"> Verify with Email </button></p>
+        </div>
+
+        <!--Tab content -->
+        <div id="Email" class="tabcontent" style="display:none">
+          <label for="emailotp">An email containing the 6-digit PIN has been sent to your email. Please key in below.</label><br>
+          <p>
+            <label>OTP:</label>
+            <input type="text" id="emailotp" name="emailotp" size="6">
+            <button class="resend btn btn-default" onclick="resend()">Resend</button>
+          </p>
+          <p><button class="tablinks btn btn-default" onclick="openMethod('SMS')"> Verify with SMS </button></p>
+        </div>
       </div>
-	</div>
+
+      <div class="col-xs-12">
+        <a href="index.html"><button type="button" class="btn btn-default pull-left" id="button">< Back </button></a>
+		    <a href="mainMenu.html"><button type="button" class="btn btn-default pull-right" id="button">Next > </button></a>
+      </div>
+    </div>
+
+  </div>
 </div>
 </body>
 
