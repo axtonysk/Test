@@ -5,12 +5,10 @@
 #logo {
 	width:100%;
 	height:15%;
-	border: solid red;
 }
 #help {
 	width:100%;
 	height:8%;
-	border: solid blue;
 }
 
 .frameHead{}
