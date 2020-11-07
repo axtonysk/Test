@@ -34,3 +34,7 @@
 	display:flex;
 	align-items:center;
 }
+
+#detailsInput {
+	width:100%;
+}
