@@ -29,34 +29,31 @@
 
 	<!-- body -->
 	<div class="row" id="frameContainer">	
-  		<div class="col-xs-12">
-            <h1>Personal Information</h1>
-            <label>Full Name: </label><input type="text"><br>
-            <label>NRIC: </label><input type="text" value="S1234567A"disabled><br>
-            <label>D.O.B. :</label><input type="date" value="2020-05-20" disabled><br>
-            <label>Mobile Number</label><input type="tel"><br>
-            <label>Email</label><input type="email"><br>
+    <h2>Personal Information</h2>
 
-            <label for="allergy">Allergy</label><br>
-            <label for="allergyName">Data from DB</label><br>
-<!--            <select name="allergy" id="allergy">
-                <option value="1">Option1</option>
-                <option value="2">Option2</option>
-                <option value="3">Option3</option>
-                <option value="4">Option4</option>
-            </select><br>
--->
-            <label for="medHist">Medical History</label>
-            <label for="medHistName">Data from DB</label><br>
-<!--            <select name="medHist" id="medHist">
-                <option value="1">Option1</option>
-                <option value="2">Option2</option>
-                <option value="3">Option3</option>
-                <option value="4">Option4</option>
-            </select><br>
--->
-            <button class="btn btn-default" onclick="document.location='mainMenu.html'">Save</button><br><br>
+    <div class="edit row" align="left" id="details">
+      <div class="col-xs-4 col-md-6">
+        <label>Full Name:</label><br><br>
+        <label>NRIC:</label><br><br>
+        <label>D.O.B:</label><br><br>
+        <label>HP Number:</label><br><br>
+        <label>Email:</label><br><br>
+        <label>Allergy:</label><br><br>
+        <label>Medical History:</label><br><br>
+      </div>
+
+      <div class="col-xs-8 col-md-6">
+        <input id="detailsInput" type="text"><br><br>
+        <input id="detailsInput" type="text" value="S1234567A" disabled><br><br>
+        <input id="detailsInput" type="date" value="2020-05-20" disabled><br><br>
+        <input id="detailsInput" type="tel"><br><br>
+        <input id="detailsInput" type="email"><br><br>
+        <input id="detailsInput" type="text"><br><br>
+        <input id="detailsInput" type="text"><br><br>
   		</div>
+    </div>
+
+    <button class="btn btn-default" onclick="document.location='mainMenu.html'">Save</button><br><br>
 	</div>
 </div>
 </body>
