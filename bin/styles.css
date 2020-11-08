@@ -7,7 +7,7 @@
 	text-align:center;
 	height:70%;
 	border-radius:25px;
-	background:dodgerblue;
+	background:moccasin;
 	margin:10px;
 }
 
@@ -16,14 +16,14 @@
 	text-align:center;
 	height:70%;
 	border-radius:25px;
-	background:dodgerblue;
+	background:moccasin;
 	margin:20px;
 	display:flex;
 	align-items:center;
 }
 
 /* registration.html */
-.details:before {height:20%;}
+.details:before {height:15%;}
 #details {margin:5px;}
 #detailsInput {width:100%;}
 #button {margin:20px;}
